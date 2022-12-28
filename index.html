@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-size: 3ch;
+        }
+        ul {
+            padding: 0;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+        ul li {
+            margin: 5px;
+        }
+        main footer {
+            box-sizing: border-box;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        footer button {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rick and Morty Characters</h1>
+    </header>
+    <main>
+        <ul id="characters"></ul>
+        <footer>
+            <button id="prev">prev</button>
+            <button id="next">next</button>
+        </footer>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+</html>
